@@ -65,11 +65,13 @@
 					<span class="search-form__text">日付</span><input type="text" class="search-form__input">
 					<span class="search-form__text">時間</span><input type="text" class="search-form__input">
 					<span class="search-form__text">作品</span><input type="text" class="search-form__input">
-					<button type="submit"><img src="#" alt="検索"></button>					
+					<button type="submit" class="search-form__button"><img src="#" alt="検索"></button>					
 				</form>
 			</div><!-- /search -->
-			<img src="../img/banner2.png" class="right-banner">
-			<img src="../img/banner3.png" class="right-banner">
+			<div class="right-banner">
+				<img src="../img/banner2.png" class="right-banner__img">
+				<img src="../img/banner3.png" class="right-banner__img">
+			</div>
 		</div><!-- /main-content__right -->
 	</div><!-- /main-content -->
 	<footer>
