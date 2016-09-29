@@ -2,6 +2,8 @@
 $white_color:#fff8e2;
 body{
 	background-color: #4c4c4c;	
+	letter-spacing: .2em;
+	width: 100%;
 }
 li{
 	list-style: none;
@@ -60,16 +62,14 @@ header{
 
 /* main-content */
 .main-content{
-	margin: 16px;
-	/*background-color: #ffe;*/
+	width: 89%;
+    margin: 0 auto;
 		&__left{
-			width: 640px;
-			float: left;
-			/*background-color: #f00;*/
-			margin:0 16px;
+			width: 56%;
+		    float: left;
+		    margin: 0 16px;
 		&-img{
-			width: 640px;
-			/*margin: 32px 0 32px 80px;*/
+			width: 100%;
 			margin-top: 32px;
 		}
 		&-banner{
@@ -89,7 +89,7 @@ header{
 	/* content left */
 	.left-li{
 		display: inline-block;
-		margin: 0 4px;
+		margin: 0 2px;
 		&-a{
 			display: inline-block;
 			text-align: center;
@@ -108,7 +108,7 @@ header{
 	}
 /* tab menu */
 .tab{
-	margin:32px 0 0 12px;
+	margin: 72px 0 0 12px;
 	&-menu{
 		color:$white_color;
 	&-a{
@@ -140,22 +140,112 @@ header{
 }
 /* right */
 .main-content__right{
-	width: 570px;
-	float: left;
-	background-color: #ff0;
-
+	width: 34%;
+    float: left;
+    margin-bottom: 56px;
+    margin-left: 24px;
+    padding-right: 44px; 
+    background-color: #737272;
 }
 .ranking{
-	
+	margin: 32px 0 32px 32px;
+	&-h2{
+		font-size: 14px;
+		margin-bottom: 16px;
+		color:$white_color;
+		}
+	&-li{
+		width: 100%;
+		height: 80px;
+		margin-bottom: 24px;
+		&-first{
+			width: 48px;
+			height: auto;
+			margin-right: 16px;
+			margin-top: 24px;
+			float: left;
+		}
+		&-img{
+			width: 120px;
+			height: auto;
+			float: left;
+		}
+		&-a{
+			display: block;
+		}
+		&-title{
+			line-height: 80px;
+    		margin-left: 24px;
+		}
+		&__4below{
+			width: 73%;
+			height: 40px;
+			margin: 0 auto;
+
+			&-a{
+				display: block;
+			} 
+			&-title{
+				margin-left: 16px;
+
+			}
+		}
+	}
+}
+.right-banner{
+	width: 300px;
+    float: left;
+    margin: 0 auto 64px auto;
+	&__img{
+	   	width: 100%;
+	    height: auto;
+	    margin: 0 auto;
+	    padding: 12px 0 12px 98px;
+    }
+}
+/* search */
+.search{
+	float: left;
+    width: 37%;
+    margin: 0 0 48px 32px;
+    &-h2{
+    	text-align: center;
+    	color: $white_color;
+   		margin-bottom: 16px;
+    }
+    &-form{
+    	margin: 0 auto;
+    	width: 69%;
+    	&__text{
+    		float: left;
+    		line-height: 24px;
+    		margin: 0 16px;
+    		color: $white_color;
+    	}	
+    	&__input{
+			display: block;
+			width: 208px;
+			height: 22px;
+			margin: 24px;
+			background-color: $white_color;
+			border: none; 
+    	}
+    	&__button{
+    	    width: 100%;
+    		margin: 16px auto 0 auto;
+    	}
+    }
+
 }
 
 /* footer */
 footer{
 	width: 100%;
-	background-color: #3d3c3c;
+	background-color: #5d5959;
 	clear: both;
 }
 .footer{
+	padding-top: 32px;
 	&-logo{
 		width: 160px;
     	display: block;
@@ -163,6 +253,7 @@ footer{
 	}
 	&__nav{
 		width: 100%;
+		margin-top: 32px;
 		&--ul{
 			width: 800px;
 			margin: 0 auto;

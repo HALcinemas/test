@@ -1,6 +1,7 @@
 body {
   background-color: #4c4c4c;
-  letter-spacing: .2em; }
+  letter-spacing: .2em;
+  width: 100%; }
 
 li {
   list-style: none; }
@@ -56,18 +57,15 @@ header {
 /********************/
 /* main-content */
 .main-content {
-  margin: 0px 0 0 24px;
-  /*background-color: #ffe;*/
+  width: 89%;
+  margin: 0 auto;
   /* content left */ }
   .main-content__left {
-    width: 640px;
+    width: 56%;
     float: left;
-    margin-top: 16px;
-    /*background-color: #f00;*/
     margin: 0 16px; }
     .main-content__left-img {
-      width: 640px;
-      /*margin: 32px 0 32px 80px;*/
+      width: 100%;
       margin-top: 32px; }
     .main-content__left-banner {
       width: 640px;
@@ -96,7 +94,7 @@ header {
 
 /* tab menu */
 .tab {
-  margin: 32px 0 0 12px; }
+  margin: 72px 0 0 12px; }
   .tab-menu {
     color: #fff8e2; }
     .tab-menu-a {
@@ -120,7 +118,7 @@ header {
 
 /* right */
 .main-content__right {
-  width: 41%;
+  width: 34%;
   float: left;
   margin-bottom: 56px;
   margin-left: 24px;
@@ -162,75 +160,87 @@ header {
         margin-left: 16px; }
 
 .right-banner {
-  display: block;
-  width: 160px;
-  height: auto; }
+  width: 300px;
+  float: left;
+  margin: 0 auto 64px auto; }
+  .right-banner__img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 12px 0 12px 98px; }
 
 /* search */
 .search {
   float: left;
-  width: 43%;
-  margin-left: 32px; }
+  width: 37%;
+  margin: 0 0 48px 32px; }
   .search-h2 {
+    text-align: center;
     color: #fff8e2;
     margin-bottom: 16px; }
-  .search-form__text {
-    float: left;
-    line-height: 24px;
-    margin-right: 16px;
-    color: #fff8e2; }
-  .search-form__input {
-    display: block;
-    width: 160px;
-    height: 22px;
-    margin: 24px;
-    background-color: #fff8e2;
-    border: none; }
+  .search-form {
+    margin: 0 auto;
+    width: 69%; }
+    .search-form__text {
+      float: left;
+      line-height: 24px;
+      margin: 0 16px;
+      color: #fff8e2; }
+    .search-form__input {
+      display: block;
+      width: 208px;
+      height: 22px;
+      margin: 24px;
+      background-color: #fff8e2;
+      border: none; }
+    .search-form__button {
+      width: 100%;
+      margin: 16px auto 0 auto; }
 
 /* footer */
 footer {
   width: 100%;
-  background-color: #3d3c3c;
+  background-color: #5d5959;
   clear: both; }
 
-.footer-logo {
-  width: 160px;
-  display: block;
-  margin: 0 auto; }
-
-.footer__nav {
-  width: 100%; }
-  .footer__nav--ul {
-    width: 800px;
-    margin: 0 auto; }
-  .footer__nav--li {
-    width: 144px;
-    display: inline-block;
-    text-align: center; }
-
-.footer__menu {
-  width: 100%;
-  margin-top: 80px; }
-  .footer__menu--ul {
-    width: 736px;
-    margin: 0 auto; }
-  .footer__menu--li {
-    display: inline-block;
-    font-size: 10px;
-    width: 176px;
-    text-align: center;
-    font-size: 10px; }
-    .footer__menu--li-a {
-      width: 100%;
-      display: block; }
-
-.footer__copy {
-  width: 100%;
-  padding-bottom: 8px;
-  margin: 0 auto; }
-  .footer__copy--text {
-    margin-top: 32px;
+.footer {
+  padding-top: 32px; }
+  .footer-logo {
+    width: 160px;
     display: block;
-    text-align: center;
-    font-size: 8px;
-    color: #fff8e2; }
+    margin: 0 auto; }
+  .footer__nav {
+    width: 100%;
+    margin-top: 32px; }
+    .footer__nav--ul {
+      width: 800px;
+      margin: 0 auto; }
+    .footer__nav--li {
+      width: 144px;
+      display: inline-block;
+      text-align: center; }
+  .footer__menu {
+    width: 100%;
+    margin-top: 80px; }
+    .footer__menu--ul {
+      width: 736px;
+      margin: 0 auto; }
+    .footer__menu--li {
+      display: inline-block;
+      font-size: 10px;
+      width: 176px;
+      text-align: center;
+      font-size: 10px; }
+      .footer__menu--li-a {
+        width: 100%;
+        display: block; }
+  .footer__copy {
+    width: 100%;
+    padding-bottom: 8px;
+    margin: 0 auto; }
+    .footer__copy--text {
+      margin-top: 32px;
+      display: block;
+      text-align: center;
+      font-size: 8px;
+      color: #fff8e2; }
