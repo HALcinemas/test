@@ -54,81 +54,22 @@
 			</div><!-- /tab -->
 		</div><!-- /main-content__left -->
 		<div class="main-content__right">
-			<div class="ranking">
-				<h2 class="ranking-h2">RANKING</h2>
-				<ul class="ranking-ul">
-				<!-- １位から３位 -->
-					<li class="ranking-li">
-						<a href="#" class="ranking-li-a">
-							<img src="#" class="ranking-li-first">
-							<img src="#" class="ranking-li-img">
-							title
-						</a>
-					</li>
-					<li class="ranking-li">
-						<a href="#" class="ranking-li-a">
-							<img src="#" class="ranking-li-first">
-							<img src="#" class="ranking-li-img">
-							title
-						</a>
-					</li>
-					<li class="ranking-li">
-						<a href="#" class="ranking-li-a">
-							<img src="#" class="ranking-li-first">
-							<img src="#" class="ranking-li-img">
-							title
-						</a>
-					</li>
-					<!-- ４位から下 -->
-					<li class="ranking-li">
-						<a href="#" class="ranking-li-a">
-							<span class="ranking-li-text">4</span>title
-						</a>
-					</li>
-					<li class="ranking-li">
-						<a href="#" class="ranking-li-a">
-							<span class="ranking-li-text">5</span>title
-						</a>
-					</li>
-					<li class="ranking-li">
-						<a href="#" class="ranking-li-a">
-							<span class="ranking-li-text">6</span>title
-						</a>
-					</li>
-					<li class="ranking-li">
-						<a href="#" class="ranking-li-a">
-							<span class="ranking-li-text">7</span>title
-						</a>
-					</li>
-					<li class="ranking-li">
-						<a href="#" class="ranking-li-a">
-							<span class="ranking-li-text">8</span>title
-						</a>
-					</li>
-					<li class="ranking-li">
-						<a href="#" class="ranking-li-a">
-							<span class="ranking-li-text">9</span>title
-						</a>
-					</li>
-					<li class="ranking-li">
-						<a href="#" class="ranking-li-a">
-							<span class="ranking-li-text">10</span>title
-						</a>
-					</li>
-				</ul>
+				<?php 
+				require('ranking.php')
+				?>
 			</div><!-- /ranking -->
 			<div class="search">
 				<h2 class="search-h2">SEARCH</h2>
-				<form>
-					劇場<input type="text">
-					日付<input type="text">
-					時間<input type="text">
-					作品<input type="text">
-					<button type="submit">検索</button>					
+				<form  method="post" action="" class="search-form">
+					<span class="search-form__text">劇場</span><input type="text" class="search-form__input">
+					<span class="search-form__text">日付</span><input type="text" class="search-form__input">
+					<span class="search-form__text">時間</span><input type="text" class="search-form__input">
+					<span class="search-form__text">作品</span><input type="text" class="search-form__input">
+					<button type="submit"><img src="#" alt="検索"></button>					
 				</form>
 			</div><!-- /search -->
-			<img src="#" class="main-content__right-banner">
-			<img src="#" class="main-content__right-banner">
+			<img src="../img/banner2.png" class="right-banner">
+			<img src="../img/banner3.png" class="right-banner">
 		</div><!-- /main-content__right -->
 	</div><!-- /main-content -->
 	<footer>
