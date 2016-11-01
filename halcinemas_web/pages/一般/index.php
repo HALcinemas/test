@@ -2,8 +2,8 @@
 <html lang="ja">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="../../css/reset.css">
-	<link rel="stylesheet" type="text/css" href="../../css/style.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.min.css">
 	<title>HAL CINEMAS</title>
 </head>
 <body>
