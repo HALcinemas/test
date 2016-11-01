@@ -3,7 +3,7 @@
 /* index,header,footer */
 
 body {
-  background-color: #4c4c4c;
+  background: #4c4c4c;
   letter-spacing: .2em; }
 
 li {
@@ -261,8 +261,8 @@ $mainColor: #3d3c3c;
   width: 960px;
   margin: 0 auto;
   background-color: $mainColor;
-}*/
-  .sinki {
+}
+*/  .sinki {
     color: $siro;
     .sinki_h1{
       font-size: 18px;
