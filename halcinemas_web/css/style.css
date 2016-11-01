@@ -1,5 +1,6 @@
+/* index,header,footer */
 body {
-  background-color: #4c4c4c;
+  background: #4c4c4c;
   letter-spacing: .2em; }
 
 li {
@@ -286,7 +287,8 @@ footer {
   width: 960px;
   margin: 0 auto;
   background-color: $mainColor;
-}*/
+}
+*/
 .sinki {
   color: #fff8e2; }
   .sinki .sinki_h1 {
