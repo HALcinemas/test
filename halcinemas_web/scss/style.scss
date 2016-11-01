@@ -63,7 +63,7 @@ header {
     width: 89%;
   margin: 0 auto;
 }
-  /* content left */ 
+  /* content left */
   .main-content__left {
     width: 56%;
     float: left;
@@ -98,7 +98,7 @@ header {
 
 /* tab menu */
 .tab {
-    margin: 72px 0 0 12px; 
+    margin: 72px 0 0 12px;
  }
   .tab-menu {
     color: #fff8e2; }
@@ -212,7 +212,7 @@ footer {
 .footer-logo {
   width: 160px;
   display: block;
-  margin: 0 auto; 
+  margin: 0 auto;
 padding: 32px 0;}
 
 .footer__nav {
@@ -263,6 +263,8 @@ $mainColor: #3d3c3c;
   background-color: $mainColor;
 }
 */  .sinki {
+    width: 960px;
+    margin: 0 auto;
     color: $siro;
     .sinki_h1{
       font-size: 18px;
@@ -298,5 +300,3 @@ $mainColor: #3d3c3c;
       }
   }
 }
-
-
