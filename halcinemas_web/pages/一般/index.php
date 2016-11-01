@@ -2,8 +2,8 @@
 <html lang="ja">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="../css/reset.css">
-	<link rel="stylesheet" type="text/css" href="../css/style.min.css">
+	<link rel="stylesheet" type="text/css" href="../../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../../css/style.min.css">
 	<title>HAL CINEMAS</title>
 </head>
 <body>
@@ -15,28 +15,28 @@
 	</header>
 	<div class="main-content">
 		<div class="main-content__left">
-			<img src="../img/zootopia.jpg" class="main-content__left-img">
-			<img src="../img/banner1.png" class="main-content__left-banner">
+			<img src="../../img/zootopia.jpg" class="main-content__left-img">
+			<img src="../../img/banner1.png" class="main-content__left-banner">
 			<!-- 上映中作品 -->
 			<div class="main-content__movie">
 				<h2 class="main-content__left-h2">上映中作品</h2>
 				<ul class="left-ul">
-					<li class="left-li"><a href="#" class="left-li-a"><img src="../img/to yang to die.jpg" class="left-li-img">title</a></li>
-					<li class="left-li"><a href="#" class="left-li-a"><img src="../img/to yang to die.jpg" class="left-li-img">title</a></li>
-					<li class="left-li"><a href="#" class="left-li-a"><img src="../img/to yang to die.jpg" class="left-li-img">title</a></li>
-					<li class="left-li"><a href="#" class="left-li-a"><img src="../img/to yang to die.jpg" class="left-li-img">title</a></li>
-					<li class="left-li"><a href="#" class="left-li-a"><img src="../img/to yang to die.jpg" class="left-li-img">title</a></li>
+					<li class="left-li"><a href="#" class="left-li-a"><img src="../../img/to yang to die.jpg" class="left-li-img">title</a></li>
+					<li class="left-li"><a href="#" class="left-li-a"><img src="../../img/to yang to die.jpg" class="left-li-img">title</a></li>
+					<li class="left-li"><a href="#" class="left-li-a"><img src="../../img/to yang to die.jpg" class="left-li-img">title</a></li>
+					<li class="left-li"><a href="#" class="left-li-a"><img src="../../img/to yang to die.jpg" class="left-li-img">title</a></li>
+					<li class="left-li"><a href="#" class="left-li-a"><img src="../../img/to yang to die.jpg" class="left-li-img">title</a></li>
 				</ul>
 			</div>
 			<!--公開予定作品  -->
 			<div class="main-content__movie">
 				<h2 class="main-content__left-h2">公開予定作品</h2>
 				<ul class="left-ul">
-					<li class="left-li"><a href="#" class="left-li-a"><img src="../img/to yang to die.jpg" class="left-li-img">title</a></li>
-					<li class="left-li"><a href="#" class="left-li-a"><img src="../img/to yang to die.jpg" class="left-li-img">title</a></li>
-					<li class="left-li"><a href="#" class="left-li-a"><img src="../img/to yang to die.jpg" class="left-li-img">title</a></li>
-					<li class="left-li"><a href="#" class="left-li-a"><img src="../img/to yang to die.jpg" class="left-li-img">title</a></li>
-					<li class="left-li"><a href="#" class="left-li-a"><img src="../img/to yang to die.jpg" class="left-li-img">title</a></li>
+					<li class="left-li"><a href="#" class="left-li-a"><img src="../../img/to yang to die.jpg" class="left-li-img">title</a></li>
+					<li class="left-li"><a href="#" class="left-li-a"><img src="../../img/to yang to die.jpg" class="left-li-img">title</a></li>
+					<li class="left-li"><a href="#" class="left-li-a"><img src="../../img/to yang to die.jpg" class="left-li-img">title</a></li>
+					<li class="left-li"><a href="#" class="left-li-a"><img src="../../img/to yang to die.jpg" class="left-li-img">title</a></li>
+					<li class="left-li"><a href="#" class="left-li-a"><img src="../../img/to yang to die.jpg" class="left-li-img">title</a></li>
 				</ul>
 			</div>
 			<div class="tab">
@@ -70,8 +70,8 @@
 				</form>
 			</div><!-- /search -->
 			<div class="right-banner">
-				<img src="../img/banner2.png" class="right-banner__img">
-				<img src="../img/banner3.png" class="right-banner__img">
+				<img src="../../img/banner2.png" class="right-banner__img">
+				<img src="../../img/banner3.png" class="right-banner__img">
 			</div>
 		</div><!-- /main-content__right -->
 	</div><!-- /main-content -->

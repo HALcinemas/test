@@ -4,22 +4,22 @@
 		<!-- １位から３位 -->
 		<li class="ranking-li">
 			<a href="#" class="ranking-li-a">
-				<img src="../img/1.png" class="ranking-li-first">
-				<img src="../img/to yang to die.jpg" class="ranking-li-img">
+				<img src="../../img/1.png" class="ranking-li-first">
+				<img src="../../img/to yang to die.jpg" class="ranking-li-img">
 				<span class="ranking-li-title">title</span>
 			</a>
 		</li>
 		<li class="ranking-li">
 			<a href="#" class="ranking-li-a">
-				<img src="../img/2.png" class="ranking-li-first">
-				<img src="../img/to yang to die.jpg" class="ranking-li-img">
+				<img src="../../img/2.png" class="ranking-li-first">
+				<img src="../../img/to yang to die.jpg" class="ranking-li-img">
 				<span class="ranking-li-title">title</span>
 			</a>
 		</li>
 		<li class="ranking-li">
 			<a href="#" class="ranking-li-a">
-				<img src="../img/3.png" class="ranking-li-first">
-				<img src="../img/to yang to die.jpg" class="ranking-li-img">
+				<img src="../../img/3.png" class="ranking-li-first">
+				<img src="../../img/to yang to die.jpg" class="ranking-li-img">
 				<span class="ranking-li-title">title</span>
 			</a>
 		</li>

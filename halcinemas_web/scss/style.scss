@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
 /* index,header,footer */
+/*　色定義　*/
+$white: #fff8e2;
 
 body {
   background: #4c4c4c;
@@ -11,7 +13,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #fff8e2; }
+  color: $white; }
 
 /* header */
 header {
@@ -254,8 +256,6 @@ padding: 32px 0;}
 
 /*******************************************/
 
-$siro: #fff8e2;
-$mainColor: #3d3c3c;
 
 /*body {
   width: 960px;
@@ -263,7 +263,7 @@ $mainColor: #3d3c3c;
   background-color: $mainColor;
 }
 */  .sinki {
-    color: $siro;
+    color: $white;
     .sinki_h1{
       font-size: 18px;
     }

@@ -1,6 +1,6 @@
 <!-- footer template -->
 <div class="footer">
-	<img src="../img/footerlogo.png" alt="footer hal cinema logo" class="footer-logo">
+	<img src="../../img/footerlogo.png" alt="footer hal cinema logo" class="footer-logo">
 	<div class="footer__nav">
 		<ul class="footer__nav--ul">
 			<li class="footer__nav--li"><a href="#" class="footer__nav--li-a">HOME</a></li>
