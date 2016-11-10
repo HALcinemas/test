@@ -3,6 +3,7 @@
 /* index,header,footer */
 /*　色定義　*/
 $white: #fff8e2;
+$red: #af0404;
 
 body {
   width: 100%;
@@ -277,7 +278,35 @@ padding: 32px 0;}
     }
     }
   }
-  
+
+/******************** theater_page ***********************/
+
+  .theater-content{
+    width: 89%;
+    margin:0 auto;
+    color: $white;
+    &_title{
+      font-weight: normal;
+      font-size: 20px;
+      margin:32px 0;
+    }
+    &__ul{
+      width:88%;
+      margin: 32px auto;
+    }
+    &__li{
+      display: inline-block;
+      width: 18%;
+      height: 56px;
+      line-height: 56px;
+      background: $white;
+      color:$red;
+      &-text{
+        display: block;
+        text-align: center;
+      }
+    }
+  }
 
 /*************** insert ****************/
 /*body {
