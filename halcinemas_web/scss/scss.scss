@@ -1,0 +1,44 @@
+$siro: #fff8e2;
+$mainColor: #3d3c3c;
+
+body {
+  width: 960px;
+  margin: 0 auto;
+  background-color: $mainColor;
+}
+  .sinki {
+    color: $siro;
+    .sinki_h1{
+      font-size: 18px;
+    }
+
+
+  table {
+  	border-collapse: collapse;
+
+
+    td {
+    	border: solid 5px;
+      border-color: $siro;
+    	padding: 1.5em;
+      font-size: 16px;
+    }
+
+    }
+
+    form{
+      .sbt_btn{
+        width:20%;
+      	height:40px;
+        float: left;
+        margin-top: 30px;
+        margin-left: 80px;
+      	background-color:$siro;
+      	border:none;
+      	color:black;
+      	font-size:15px;
+      	font-weight:700;
+      	text-align:center;
+      }
+  }
+}

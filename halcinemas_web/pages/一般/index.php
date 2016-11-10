@@ -7,7 +7,6 @@
 	<title>HAL CINEMAS</title>
 </head>
 <body>
-<div class="background">
 	<header>
 		<?php 
 			require('template/header.php')
@@ -80,6 +79,5 @@
 			require('template/footer.php')
 		?>
 	</footer>
-	</div>
 </body>
 </html>

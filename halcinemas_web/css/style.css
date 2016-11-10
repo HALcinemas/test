@@ -1,4 +1,6 @@
+@charset "UTF-8";
 /* index,header,footer */
+/*　色定義　*/
 body {
   background: #4c4c4c;
   letter-spacing: .2em; }
