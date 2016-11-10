@@ -5,6 +5,7 @@
 $white: #fff8e2;
 
 body {
+  width: 100%;
   background: #4c4c4c;
   letter-spacing: .2em; }
 
@@ -35,7 +36,7 @@ header {
   float: right; }
 
 .header__primary-menu {
-  color: #fff8e2;
+  color:  $white;
   text-decoration: none;
   font-size: 12px; }
 
@@ -53,7 +54,7 @@ header {
 .li-a {
   display: block;
   text-decoration: none;
-  color: #fff8e2;
+  color:  $white;
   font-size: 14px; }
 
 .li-a:hover {
@@ -79,7 +80,7 @@ header {
       margin-top: 32px; }
     .main-content__left-h2 {
       font-weight: normal;
-      color: #fff8e2;
+      color:  $white;
       margin: 0  0 8px 12px; }
   .main-content__movie {
     margin-top: 32px; }
@@ -103,7 +104,7 @@ header {
     margin: 72px 0 0 12px; 
  }
   .tab-menu {
-    color: #fff8e2; }
+    color:  $white; }
     .tab-menu-a {
       background-color: #3d3c3c;
       display: block;
@@ -117,7 +118,7 @@ header {
     .tab-content__text {
       margin: 8px; }
     .tab-content__list {
-      background-color: #fff8e2;
+      background-color:  $white;
       height: 240px;
       overflow: hidden; }
       .tab-content__list-li {
@@ -137,7 +138,7 @@ header {
   .ranking-h2 {
     font-size: 14px;
     margin-bottom: 16px;
-    color: #fff8e2; }
+    color: $white; }
   .ranking-li {
     width: 100%;
     height: 80px;
@@ -183,7 +184,7 @@ header {
   margin: 0 0 48px 32px; }
   .search-h2 {
     text-align: center;
-    color: #fff8e2;
+    color: $white;
     margin-bottom: 16px; }
   .search-form {
     margin: 0 auto;
@@ -192,13 +193,13 @@ header {
       float: left;
       line-height: 24px;
       margin: 0 16px;
-      color: #fff8e2; }
+      color:  $white; }
     .search-form__input {
       display: block;
       width: 208px;
       height: 22px;
       margin: 24px;
-      background-color: #fff8e2;
+      background-color: $white;
       border: none; }
     .search-form__button {
       width: 100%;
@@ -252,11 +253,33 @@ padding: 32px 0;}
     display: block;
     text-align: center;
     font-size: 8px;
-    color: #fff8e2; }
-
-/*******************************************/
+    color:  $white; }
 
 
+/******************** theater_list ***********************/
+
+  .theater-list{
+    width: 89%;
+    margin:0 auto;
+    color: $white;
+    &_title{
+      font-weight: normal;
+      font-size: 20px;
+      margin:32px 0 8px 0;
+    }
+    &__li{
+      display: inline-block;
+      width: 12%;
+      padding: 24px 8px;
+    &-text{
+      display: block;
+      text-align: center;
+    }
+    }
+  }
+  
+
+/*************** insert ****************/
 /*body {
   width: 960px;
   margin: 0 auto;

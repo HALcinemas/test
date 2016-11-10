@@ -9,7 +9,7 @@
 <body>
 	<header>
 		<?php 
-			require('template/header.php')
+			require('./template/header.php');
 		?>
 	</header>
 	<div class="main-content">

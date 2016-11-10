@@ -8,7 +8,7 @@
 	<div class="header__nav">
 		<ul class="header__nav--ul">
 			<li class="header__nav--li"><a href="index.php" class="li-a">HOME</a></li>
-			<li class="header__nav--li"><a href="./THEATER/theater_list.php" class="li-a">THEATER</a></li>
+			<li class="header__nav--li"><a href="theater_list.php" class="li-a">THEATER</a></li>
 			<li class="header__nav--li"><a href="#" class="li-a">MOVIE</a></li>
 			<li class="header__nav--li"><a href="#" class="li-a">SERVICE</a></li>
 			<li class="header__nav--li"><a href="#" class="li-a">CONTACT</a></li>
