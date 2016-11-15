@@ -25,9 +25,10 @@
         <h3 class="theater-content_date">*月*日（曜）</h3>
         <div class="theater">
             <h3 class="theater-title">映画タイトル</h3>
-            <img src="#">
+            <img src="../../img/20160119142455.jpg" class="theater-img">
             <div class="theater-screen">
                 <h4 class="theater-screen_num">SCREEN*</h4>
+                <div class="theater-screen__box">
                 <ul class="theater-screen__ul">
                     <li class="theater-screen__li">
                         <a href="#" class="theater-screen__link">
@@ -60,6 +61,7 @@
                         </a>
                     </li>
                 </ul>
+                </div><!-- .theater-screen__box/ -->
             </div>
         </div>
     </div>
