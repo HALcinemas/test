@@ -321,6 +321,9 @@ footer {
     line-height: 56px;
     background: #fff8e2;
     color: #af0404; }
+    .theater-content__li:hover {
+      background: #af0404;
+      color: #fff8e2; }
     .theater-content__li-text {
       display: block;
       text-align: center; }
@@ -340,6 +343,9 @@ footer {
     margin: 16px;
     padding: 20px;
     border-bottom: 1px dashed; }
+  .theater-left {
+    float: left;
+    height: 400px; }
   .theater-img {
     width: 200px;
     height: auto;
@@ -349,6 +355,13 @@ footer {
     clear: both; }
   .theater-screen_num {
     margin: 16px 0 8px 0; }
+  .theater-screen__time {
+    display: block;
+    text-align: center;
+    margin: 16px; }
+  .theater-screen__states {
+    display: block;
+    text-align: center; }
   .theater-screen__li {
     background: #4c4c4c;
     display: inline-block;

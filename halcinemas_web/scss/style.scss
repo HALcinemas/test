@@ -302,6 +302,10 @@ padding: 32px 0;}
       line-height: 56px;
       background: $white;
       color:$red;
+      &:hover{
+        background: $red;
+        color: $white;
+      }
       &-text{
         display: block;
         text-align: center;
@@ -327,6 +331,11 @@ padding: 32px 0;}
       padding: 20px;
       border-bottom: 1px dashed;
     }
+    &-left{
+      float: left;
+      //ここのheightは上映するスクリーンの数に応じて変更する（phpまたはjsで実装）
+      height:400px;
+    }
     &-img{
       width: 200px;
       height:auto;
@@ -343,7 +352,16 @@ padding: 32px 0;}
       &_num{
           margin: 16px 0 8px 0;
       }
-      
+      &__time{
+        display: block;
+        text-align: center;
+        margin: 16px;
+      }
+      &__states{
+        display: block;
+        text-align: center;
+      }
+
       //
       &__ul{
        // clear: both;
