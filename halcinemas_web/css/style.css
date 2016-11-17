@@ -341,17 +341,21 @@ footer {
     padding: 20px;
     border-bottom: 1px dashed; }
   .theater-img {
-    width: 144px;
+    width: 200px;
     height: auto;
-    float: left; }
+    float: left;
+    margin: 16px 40px 32px 32px; }
   .theater-screen__box::after {
     clear: both; }
+  .theater-screen_num {
+    margin: 16px 0 8px 0; }
   .theater-screen__li {
     background: #4c4c4c;
     display: inline-block;
-    width: 104px;
-    height: 64px;
-    margin-bottom: 32px; }
+    width: 128px;
+    height: 80px;
+    margin-bottom: 32px;
+    padding: 16px; }
 
 /*************** insert ****************/
 /*body {
