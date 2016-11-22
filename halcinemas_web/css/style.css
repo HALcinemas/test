@@ -370,6 +370,58 @@ footer {
     margin-bottom: 32px;
     padding: 16px; }
 
+/******************* cinema_list *******************/
+.cinema-list {
+  width: 89%;
+  margin: 24px auto 0 auto;
+  color: #fff8e2; }
+  .cinema-list_h2 {
+    margin: 16px 0;
+    font-weight: normal;
+    font-size: 20px; }
+  .cinema-list_ul {
+    color: #4c4c4c; }
+  .cinema-list_li {
+    background: #fff8e2;
+    margin: 24px 0; }
+    .cinema-list_li-img {
+      float: left;
+      width: 160px;
+      height: 144px;
+      margin-right: 24px; }
+    .cinema-list_li-det {
+      display: block;
+      color: #4c4c4c;
+      text-align: right;
+      padding: 0 24px 8px 0; }
+    .cinema-list_li-title {
+      padding: 16px 24px 8px 0;
+      font-weight: normal; }
+  .cinema-list_pull {
+    margin-left: 8px; }
+  .cinema-list_select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 160px;
+    height: 24px;
+    padding-left: 8px;
+    background: #fff8e2;
+    color: #4c4c4c;
+    border-radius: 0; }
+
+.b-box {
+  background: #4c4c4c;
+  color: #fff8e2;
+  width: 64px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  display: inline-block; }
+
+.line {
+  margin-top: 16px; }
+
 /*************** insert ****************/
 /*body {
   width: 960px;

@@ -378,6 +378,67 @@ padding: 32px 0;}
     }
   }
 
+/******************* cinema_list *******************/
+.cinema-list{
+  width: 89%;
+  margin: 24px auto 0 auto;
+  color: $white;
+  &_h2{
+    margin: 16px 0;
+    font-weight: normal;
+    font-size: 20px;
+  }
+  &_ul{
+    color: $gray;
+  }
+  &_li{
+        background: $white;
+        margin: 24px 0;
+    &-img{
+      float: left;
+      width: 160px;
+      height: 144px;
+      margin-right: 24px;
+    }
+    &-det{
+      display: block;
+      color: $gray;
+      text-align: right;
+      padding: 0 24px 8px 0;
+    }
+    &-title{
+      padding: 16px 24px 8px 0;
+      font-weight: normal;
+    }
+  } 
+  &_pull{
+    margin-left: 8px;
+  }
+  &_select{
+    -webkit-appearance: none;
+	  -moz-appearance: none;
+  	appearance: none;
+    width: 160px;
+    height: 24px;
+    padding-left: 8px;
+    background: $white;
+    color: $gray;
+    border-radius:0; 
+  }
+}
+.b-box{
+    background: #4c4c4c;
+    color: $white;
+    width: 64px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    display: inline-block;
+}
+.line{
+  margin-top:16px; 
+}
+
 /*************** insert ****************/
 /*body {
   width: 960px;
