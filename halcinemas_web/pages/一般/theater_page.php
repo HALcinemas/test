@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>THEATER LIST</title>
+	<title>THEATER PAGE</title>
 	<link rel="stylesheet" type="text/css" href="../../css/reset.css">
 	<link rel="stylesheet" type="text/css" href="../../css/style.min.css">
 	<script src="../../js/script.js"></script>

@@ -27,22 +27,21 @@
             <!-- 繰り返し -->
             <li class="cinema-list_li">
                 <img src="#" class="cinema-list_li-img">
-                    <h3 class="cinema-list_li-title">title title title</h3>
-                    <!-- 監督 -->
-                    <div class="line">
-                        <span class="b-box">監督</span>
-                        <span class="directer">name</span>
-                    </div>
-                    <!-- 出演 -->
-                    <div class="line">
-                        <span class="b-box">出演</span>
-                        <span class="performer">name</span>
-                    </div>
-                    <a href="#" class="cinema-list_li-det">詳しく見る</a>
-                </div>
+                <h3 class="cinema-list_li-title">title title title</h3>
+                <!-- 監督 -->
+                <div class="line">
+                    <span class="b-box">監督</span>
+                    <span class="directer">name</span>
+                </div><!-- /line -->
+                <!-- 出演 -->
+                <div class="line">
+                    <span class="b-box">出演</span>
+                    <span class="performer">name</span>
+                </div><!-- /line -->
+                <a href="#" class="cinema-list_li-det">詳しく見る</a>
             </li>
         </ul>
-    </div>
+    </div><!-- /cinema-list -->
     
     <footer>
 		<?php 
