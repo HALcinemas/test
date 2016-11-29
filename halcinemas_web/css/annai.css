@@ -1,0 +1,79 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #444;
+}
+
+header {
+  width: 100%;
+  background-color: #3d3c3c; }
+
+.header-logo {
+  float: left; }
+
+.header-logo_img {
+  width: 160px;
+  height: auto;
+  margin: 0px 48px;
+  float: left; }
+
+.header__primary {
+  margin-top: 8px;
+  margin-right: 40px;
+  float: right; }
+
+.header__primary-menu {
+  color:  $white;
+  text-decoration: none;
+  font-size: 12px; }
+
+.header__nav--ul {
+  width: 980px;
+  margin: 0 auto; }
+
+.header__nav--li {
+  display: inline-block;
+  width: 16%;
+  height: 74px;
+  line-height: 74px;
+  text-align: center; }
+
+.li-a {
+  display: block;
+  text-decoration: none;
+  color:  $white;
+  font-size: 14px; }
+
+.li-a:hover {
+  color: #676767; }
+
+.container{
+  width: 1190px;
+  margin: 0 auto;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  color: #fff;
+}
+h2{
+  padding: 30px;
+  font-size: 35px;
+}
+h3{
+  padding: 10px 40px;
+}
+p{
+  padding: 0 50px 75px 50px;
+  font-size: 15px;
+}
+.buttonbox{
+  margin-right:100px;
+  float: right;
+}
+.service{
+  padding: 40px 0;
+  border-bottom: 1px solid #fff;
+}
+footer{
+  margin-top: 100px;
+  padding: 50px 0;
+  background-color: #aaa;
+}
