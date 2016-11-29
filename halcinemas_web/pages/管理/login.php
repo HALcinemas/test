@@ -30,7 +30,7 @@
     </div>
   </main>
   <footer>
-    <h1>↑TOP</h1>
+	  <p>↑TOP</p>
   </footer>
 </div>
 </body>
