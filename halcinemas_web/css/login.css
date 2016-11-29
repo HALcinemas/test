@@ -90,11 +90,13 @@ input[type="password"] {
 	padding-top: 110px;
 	color: #00f;
 	text-decoration: underline;
+	display: block
 
 }
 a {
 	color: #000;
 	text-decoration: none;
+	
 }
 
 footer {

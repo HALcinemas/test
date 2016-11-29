@@ -25,7 +25,7 @@
           <p class="pass"><input type="password" name="pass" /></p>
           <p class="submit"><a href="#">ログイン</a></p>
           <p class="submit2"><a href="kanri.html">登録する</a></p>
-          <p class="a">パスワードを忘れた方はこちらに</p>
+          <a href="#" class="a">パスワードを忘れた方はこちらに</a>
       </form>
     </div>
   </main>
