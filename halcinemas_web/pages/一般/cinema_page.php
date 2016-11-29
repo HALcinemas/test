@@ -36,17 +36,29 @@
                 <span class="b-box">出演</span>
                 <span class="performer">name</span>
             </div><!-- /line -->
-            <span class=""></span>
-            <span class="running_time">
-            </span>
+            <span class="cinema-title">title title</span>
+            <span class="running_time">上映時間：**分</span>
+            <!-- 公式サイトが存在するなら表示する -->
+            <a href="#" class="site-link">公式サイトへ</a>
         </div><!-- /main-content__left -->
 		<div class="main-content__right">
 				<?php 
 				require('ranking.php')
 				?>
-		</div><!-- /main-content__right -->
+		</div><!-- /main-content__right -->    
 	</div><!-- /main-content -->
-	
+	<div class="theater-list">
+		<h2 class="theater-list_title">劇場案内</h2>
+		<ul class="theater-list__ul">
+			<li class="theater-list__li"><span class="theater-list__li-text">東北</span></li>
+			<li class="theater-list__li"><span class="theater-list__li-text">関東</span></li>
+			<li class="theater-list__li"><span class="theater-list__li-text">中部</span></li>
+			<li class="theater-list__li"><span class="theater-list__li-text">関西</span></li>
+			<li class="theater-list__li"><span class="theater-list__li-text">中国</span></li>
+			<li class="theater-list__li"><span class="theater-list__li-text">四国</span></li>
+			<li class="theater-list__li"><span class="theater-list__li-text">九州</span></li>
+		</ul>
+	</div>
     <footer>
 		<?php 
 			require('template/footer.php')
