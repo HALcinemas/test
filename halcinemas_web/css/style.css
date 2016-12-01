@@ -422,6 +422,40 @@ footer {
 .line {
   margin-top: 16px; }
 
+/****************** cinema_page *******************/
+.cinema-page {
+  width: 60%;
+  float: left;
+  margin-top: 24px; }
+  .cinema-page_h3 {
+    margin: 16px 0 16px 0;
+    font-weight: normal;
+    font-size: 18px; }
+  .cinema-page-theater-list_title {
+    padding-left: 16px; }
+  .cinema-page_ul {
+    float: right;
+    margin-right: 48px; }
+  .cinema-page_text {
+    line-height: 1.6em;
+    margin: 24px 0 0 16px; }
+
+.main-img_left {
+  width: 26em; }
+
+.main-img_right {
+  width: 8em;
+  margin: 0 2.5em .5em 0; }
+
+.site-link {
+  display: block;
+  margin-left: 16px; }
+
+.cinema-title, .runnning_time {
+  display: inline-block;
+  margin: 16px; }
+
+/**************************************************/
 /*************** insert ****************/
 /*body {
   width: 960px;
