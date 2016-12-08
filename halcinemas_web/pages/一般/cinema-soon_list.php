@@ -14,8 +14,10 @@
 		?>
 	</header>
     <div class="cinema-list">
-        <a href="#" class="cinema-list_bread">HOME</a>&gt;
-        <a href="#" class="cinema-list_bread">公開予定作品一覧</a>
+        <div class="bread">
+            <a href="#" class="cinema-list_bread">HOME</a>&gt;
+            <a href="#" class="cinema-list_bread">公開予定作品一覧</a>
+        </div>
         <h2 class="cinema-list_h2">公開予定作品</h2>
         <span class="cinema-list_pull">作品リスト：</span>
         <select class="cinema-list_select"> 
@@ -23,19 +25,22 @@
             <option class="cinema-list_option">作品02</option>
             <option class="cinema-list_option">作品03</option>
         </select>
+
+        <h4 class="cinema-soon_day-h4">公開予定日から探す</h4>
         <ul class="theater-content__ul">
-            <li class="theater-content__li"><span class="theater-content__li-text">*月*日（曜）</span></li>
-            <li class="theater-content__li"><span class="theater-content__li-text">*月*日（曜）</span></li>
-            <li class="theater-content__li"><span class="theater-content__li-text">*月*日（曜）</span></li>
-            <li class="theater-content__li"><span class="theater-content__li-text">*月*日（曜）</span></li>
-            <li class="theater-content__li"><span class="theater-content__li-text">*月*日（曜）</span></li>
+            <li class="theater-content__li"><a href="#" class="theater-content__li-text">*月*日（曜）</a></li>
+            <li class="theater-content__li"><a href="#" class="theater-content__li-text">*月*日（曜）</a></li>
+            <li class="theater-content__li"><a href="#" class="theater-content__li-text">*月*日（曜）</a></li>
+            <li class="theater-content__li"><a href="#" class="theater-content__li-text">*月*日（曜）</a></li>
+            <li class="theater-content__li"><a href="#" class="theater-content__li-text">*月*日（曜）</a></li>
         </ul>
         <ul class="cinema-soon_ul">
-            <li class="cinema-soon_li">7月以降</li>
-            <li class="cinema-soon_li">8月以降</li>
-            <li class="cinema-soon_li">9月以降</li>
-            <li class="cinema-soon_li">10月以降</li>
+            <li class="cinema-soon_li"><a href="#" class="theater-content__li-text">7月以降</a></li>
+            <li class="cinema-soon_li"><a href="#" class="theater-content__li-text">8月以降</a></li>
+            <li class="cinema-soon_li"><a href="#" class="theater-content__li-text">9月以降</a></li>
+            <li class="cinema-soon_li"><a href="#" class="theater-content__li-text">10月以降</a></li>
         </ul>
+        <!--　日付読み込み　-->
         <h4 class="cinema-soon_h4">＊月＊日公開予定</h4>
         <ul class="cinema-list_ul">
             <!-- 繰り返し -->

@@ -293,7 +293,7 @@ footer {
   .theater-list_title {
     font-weight: normal;
     font-size: 20px;
-    margin: 32px 0 8px 0; }
+    margin: 32px 0 8px 32px; }
   .theater-list__li {
     display: inline-block;
     width: 12%;
@@ -312,21 +312,20 @@ footer {
     font-size: 20px;
     margin: 32px 0; }
   .theater-content__ul {
-    width: 92%;
-    margin: 32px auto 40px auto; }
+    width: 82%;
+    margin: 8px auto 40px auto; }
   .theater-content__li {
     display: inline-block;
     width: 200px;
-    height: 56px;
     line-height: 56px;
-    background: #fff8e2;
-    color: #af0404; }
-    .theater-content__li:hover {
-      background: #af0404;
-      color: #fff8e2; }
+    background: #fff8e2; }
     .theater-content__li-text {
+      color: #af0404;
       display: block;
       text-align: center; }
+      .theater-content__li-text:hover {
+        background: #af0404;
+        color: #fff8e2; }
   .theater-content_date {
     margin: 0 auto 32px auto;
     background: #fff8e2;
@@ -376,7 +375,7 @@ footer {
   margin: 24px auto 0 auto;
   color: #fff8e2; }
   .cinema-list_h2 {
-    margin: 16px 0;
+    margin: 24px 0 32px 32px;
     font-weight: normal;
     font-size: 20px; }
   .cinema-list_ul {
@@ -398,7 +397,8 @@ footer {
       padding: 16px 24px 8px 0;
       font-weight: normal; }
   .cinema-list_pull {
-    margin-left: 8px; }
+    margin-left: 112px;
+    font-size: 18px; }
   .cinema-list_select {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -409,6 +409,9 @@ footer {
     background: #fff8e2;
     color: #4c4c4c;
     border-radius: 0; }
+
+.bread {
+  margin: 32px 0 24px 32px; }
 
 .b-box {
   background: #4c4c4c;
@@ -458,13 +461,32 @@ footer {
 /**************************************************/
 /*********************** cinema-soon_list ********************/
 .cinema-soon_h4 {
-  font-weight: normal; }
+  font-weight: normal;
+  clear: both;
+  padding-top: 32px;
+  width: 80%;
+  margin: 0 auto; }
+
+.cinema-soon_ul {
+  width: 45%;
+  float: right;
+  height: 32px; }
 
 .cinema-soon_li {
-  display: inline; }
+  width: 18%;
+  line-height: 32px;
+  display: inline-block;
+  background: #fff8e2;
+  color: #af0404;
+  font-size: 14px; }
 
 .cinema-soon_cinema-li {
-  margin: 8px 0 16px 0; }
+  width: 80%;
+  margin: 32px auto 48px; }
+
+.cinema-soon_day-h4 {
+  width: 82%;
+  margin: 32px auto 8px; }
 
 /*************************************************/
 /*************** insert ****************/

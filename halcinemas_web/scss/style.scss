@@ -267,7 +267,7 @@ padding: 32px 0;}
     &_title{
       font-weight: normal;
       font-size: 20px;
-      margin:32px 0 8px 0;
+      margin: 32px 0 8px 32px;
     }
     &__li{
       display: inline-block;
@@ -292,23 +292,23 @@ padding: 32px 0;}
       margin:32px 0;
     }
     &__ul{
-      width:92%;
-      margin: 32px auto 40px auto;
+      width:82%;
+      margin: 8px auto 40px auto;
     }
     &__li{
       display: inline-block;
       width: 200px;
-      height: 56px;
       line-height: 56px;
       background: $white;
-      color:$red;
-      &:hover{
-        background: $red;
-        color: $white;
-      }
+      
       &-text{
+        color:$red;
         display: block;
         text-align: center;
+        &:hover{
+          background: $red;
+          color: $white;
+        }
       }
     }
     &_date{
@@ -384,7 +384,7 @@ padding: 32px 0;}
   margin: 24px auto 0 auto;
   color: $white;
   &_h2{
-    margin: 16px 0;
+    margin: 24px 0 32px 32px;
     font-weight: normal;
     font-size: 20px;
   }
@@ -412,7 +412,8 @@ padding: 32px 0;}
     }
   } 
   &_pull{
-    margin-left: 8px;
+    margin-left: 112px;
+    font-size: 18px;
   }
   &_select{
     -webkit-appearance: none;
@@ -425,6 +426,9 @@ padding: 32px 0;}
     color: $gray;
     border-radius:0;
   }
+}
+.bread{
+      margin: 32px 0 24px 32px;
 }
 .b-box{
     background: #4c4c4c;
@@ -481,12 +485,31 @@ padding: 32px 0;}
 /*********************** cinema-soon_list ********************/
   .cinema-soon_h4{
     font-weight: normal; 
+    clear: both;
+    padding-top: 32px; 
+    width: 80%;
+    margin: 0 auto;
+  }
+  .cinema-soon_ul{
+    width: 45%;
+    float: right;
+    height: 32px;
   }
   .cinema-soon_li{
-    display: inline;
+    width: 18%;
+    line-height: 32px;
+    display: inline-block;
+    background: $white;
+    color: $red;
+    font-size: 14px;
   }
   .cinema-soon_cinema-li{
-    margin: 8px 0 16px 0;
+    width: 80%;
+    margin: 32px auto 48px;
+  }
+  .cinema-soon_day-h4{
+    width: 82%;
+    margin: 32px auto 8px;
   }
 
 /*************************************************/

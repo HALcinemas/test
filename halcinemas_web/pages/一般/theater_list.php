@@ -14,8 +14,10 @@
 		?>
 	</header>
 	<div class="theater-list">
-		<a href="#" class="cinema-list_bread">HOME</a>&gt;
-        <a href="#" class="cinema-list_bread">上映中作品一覧</a>
+		<div class="bread">
+			<a href="#" class="cinema-list_bread">HOME</a>&gt;
+			<a href="#" class="cinema-list_bread">上映中作品一覧</a>
+		</div>
 		<h2 class="theater-list_title">劇場案内</h2>
 		<ul class="theater-list__ul">
 			<li class="theater-list__li"><span class="theater-list__li-text">東北</span></li>
