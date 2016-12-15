@@ -489,6 +489,15 @@ footer {
   margin: 32px auto 8px; }
 
 /*************************************************/
+/****** theater_individual_page ****************/
+.theater-ivl {
+  width: 89%;
+  margin: 0 auto; }
+  .theater-ivl_cinema {
+    width: 80%;
+    margin: 0 auto; }
+
+/*************************************************/
 /*************** insert ****************/
 /*body {
   width: 960px;
