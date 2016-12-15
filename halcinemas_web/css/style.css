@@ -13,6 +13,9 @@ a {
   text-decoration: none;
   color: #fff8e2; }
 
+.clear {
+  clear: both; }
+
 /************* header ************/
 header {
   width: 100%;
@@ -316,7 +319,7 @@ footer {
     margin: 8px auto 40px auto; }
   .theater-content__li {
     display: inline-block;
-    width: 200px;
+    width: 176px;
     line-height: 56px;
     background: #fff8e2; }
     .theater-content__li-text {
@@ -335,7 +338,8 @@ footer {
 /* .theater */
 .theater {
   background: #fff8e2;
-  color: #4c4c4c; }
+  color: #4c4c4c;
+  margin-bottom: 48px; }
   .theater::after {
     clear: both; }
   .theater-title {
@@ -344,7 +348,7 @@ footer {
     border-bottom: 1px dashed; }
   .theater-left {
     float: left;
-    height: 400px; }
+    height: 136px; }
   .theater-img {
     width: 200px;
     height: auto;
@@ -494,8 +498,18 @@ footer {
   width: 89%;
   margin: 0 auto; }
   .theater-ivl_cinema {
-    width: 80%;
+    width: 72%;
     margin: 0 auto; }
+  .theater-ivl-left {
+    float: left;
+    background: #4c4c4c;
+    width: 136px;
+    height: 112px;
+    margin-right: 32px; }
+  .theater-ivl-title {
+    font-weight: normal;
+    margin-left: 32px;
+    line-height: 48px; }
 
 /*************************************************/
 /*************** insert ****************/

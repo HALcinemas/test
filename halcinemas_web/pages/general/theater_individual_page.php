@@ -61,7 +61,46 @@
             <li class="theater-content__li"><a href="#" class="theater-content__li-text">*月*日（曜）</a></li>
             <li class="theater-content__li"><a href="#" class="theater-content__li-text">*月*日（曜）</a></li>
         </ul>
-    </div><!-- /theater_ivl -->
+         <div class="theater">
+             <h3 class="theater-ivl-title">作品タイトル</h3>
+            <div class="theater-ivl-left">    
+            </div>
+            <h4 class="theater-screen_num">SCREEN*</h4>
+            <div class="theater-screen__box">
+                <ul class="theater-screen__ul">
+                    <li class="theater-screen__li">
+                        <a href="#" class="theater-screen__link">
+                            <span class="theater-screen__time">*:**-*:**</span>
+                            <span class="theater-screen__states">○空席あり</span>
+                        </a>
+                    </li>
+                    <li class="theater-screen__li">
+                        <a href="#" class="theater-screen__link">
+                            <span class="theater-screen__time">*:**-*:**</span>
+                            <span class="theater-screen__states">○空席あり</span>
+                        </a>
+                    </li>
+                    <li class="theater-screen__li">
+                        <a href="#" class="theater-screen__link">
+                            <span class="theater-screen__time">*:**-*:**</span>
+                            <span class="theater-screen__states">○空席あり</span>
+                        </a>
+                    </li>
+                    <li class="theater-screen__li">
+                        <a href="#" class="theater-screen__link">
+                            <span class="theater-screen__time">*:**-*:**</span>
+                            <span class="theater-screen__states">○空席あり</span>
+                        </a>
+                    </li>
+                    <li class="theater-screen__li">
+                        <a href="#" class="theater-screen__link">
+                            <span class="theater-screen__time">*:**-*:**</span>
+                            <span class="theater-screen__states">○空席あり</span>
+                        </a>
+                    </li>
+                </ul>
+            </div><!-- .theater-screen__box/ -->
+        </div><!-- /theater -->
     <?php
         require('template/footer.php');
     ?>
