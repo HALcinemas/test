@@ -55,7 +55,7 @@
 		</div><!-- /main-content__right -->    
 	</div><!-- /main-content -->
 	<div class="theater-list">
-		<h2 class="theater-list_title cinema_page-theater-list_title">劇場案内</h2>
+		<h2 class="theater-list_title cinema_page-theater-list_title">上映劇場一覧</h2>
 		<ul class="theater-list__ul">
 			<li class="theater-list__li"><span class="theater-list__li-text">東北</span></li>
 			<li class="theater-list__li"><span class="theater-list__li-text">関東</span></li>

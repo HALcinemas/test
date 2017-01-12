@@ -65,6 +65,7 @@
              <h3 class="theater-ivl-title">作品タイトル</h3>
             <div class="theater-ivl-left">    
             </div>
+            <!--　一週間分のスケジュールを表示する　-->
             <h4 class="theater-screen_num">SCREEN*</h4>
             <div class="theater-screen__box">
                 <ul class="theater-screen__ul">
@@ -101,6 +102,22 @@
                 </ul>
             </div><!-- .theater-screen__box/ -->
         </div><!-- /theater -->
+        </div>
+        <!--　上映劇場一覧　-->
+                <div class="theater-list">
+                    <h2 class="theater-list_title cinema_page-theater-list_title">上映劇場一覧</h2>
+                    <ul class="theater-list__ul">
+                        <li class="theater-list__li"><span class="theater-list__li-text">東北</span></li>
+                        <li class="theater-list__li"><span class="theater-list__li-text">関東</span></li>
+                        <li class="theater-list__li"><span class="theater-list__li-text">中部</span></li>
+                        <li class="theater-list__li"><span class="theater-list__li-text">関西</span></li>
+                        <li class="theater-list__li"><span class="theater-list__li-text">中国</span></li>
+                        <li class="theater-list__li"><span class="theater-list__li-text">四国</span></li>
+                        <li class="theater-list__li"><span class="theater-list__li-text">九州</span></li>
+                    </ul>
+                    <a href="#" class="theater-link theater-link_official"><span class="theater-link_text">公式サイトへ</span></a>
+                    <a href="#" class="theater-link theater-link_top"><span class="theater-link_text">ページトップへ</span></a>
+                
     <?php
         require('template/footer.php');
     ?>

@@ -511,6 +511,19 @@ footer {
     margin-left: 32px;
     line-height: 48px; }
 
+.theater-link {
+  background: #af0404;
+  padding: 8px 24px;
+  display: inline-block; }
+  .theater-link_text {
+    font-size: 12px;
+    display: inline-block; }
+  .theater-link_official {
+    margin: 32px 0 32px 128px; }
+  .theater-link_top {
+    margin: 32px 128px 32px 0;
+    float: right; }
+
 /*************************************************/
 /*************** insert ****************/
 /*body {
