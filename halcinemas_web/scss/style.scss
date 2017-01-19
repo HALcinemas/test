@@ -212,7 +212,7 @@ header {
 
 
 /************ footer ***********/
-footer {
+.footer {
   width: 100%;
   background-color: #5d5959;
   clear: both; }
@@ -558,7 +558,86 @@ padding: 32px 0;}
 
 /*************************************************/
 
+/******************* withdraw ********************/
+.wd-content{
+  width: 72%;
+  margin: 0 auto;
+  &_sentence{
+    width: 64%;
+    margin: 64px auto 32px auto;
+  }
+  &_form{
+    width: 72%;
+    margin: 0 auto;
+  }
+  &_text{
+    display: inline-block;
+    margin: 24px 0;
+    color: $white;
+  }
+  &_form{
+    width: 72%;
+    margin: 0 auto;
+  }
+  &_label{
+    color: $white;
+    text-align: center;
+    width: 32%;
+    display: inline-block;
+    margin-top: 48px;
+  }
+  &_tbox{
+    width: 50%;
+    height: 22px;
+    background-color: $white;
+  }
+  &_link{
+    display: inline-block;
+    margin: 112px 64px 64px 64px;
+     &-text{
+      display: inline-block;
+      background: $white;
+      color: $gray;
+      width: 184px;
+      padding: 8px 0;
+      text-align: center;
+    }
+  }
+   &_btn{
+      display: inline-block;
+      width: 184px;
+      padding: 8px 0;
+      margin: 32px;
+      border: none;
+      background: $red;
+      color: $white;
+      text-align: center;
+    }
+}
+/*************************************************/
 
+/****************** withdraw_comf ********************/ 
+.wd_comf-content{
+  width: 48%;
+  margin: 124px auto;
+  &-text{
+    color: $white;
+    text-align: center;
+    line-height: 3em;
+    margin: 96px 0 48px 0;
+  }
+  &-link{
+    display: inline-block;
+    background: $red;   
+    margin: 48px 30% 64px 30%;
+    &_text{
+          display: inline-block;
+          width: 240px;
+          text-align: center;
+          line-height: 40px;
+    }
+  }
+}
 /*************** insert ****************/
 /*body {
   width: 960px;

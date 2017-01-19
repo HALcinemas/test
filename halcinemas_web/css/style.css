@@ -234,7 +234,7 @@ header {
   margin: 16px auto 0 auto; }
 
 /************ footer ***********/
-footer {
+.footer {
   width: 100%;
   background-color: #5d5959;
   clear: both; }
@@ -525,6 +525,73 @@ footer {
     float: right; }
 
 /*************************************************/
+/******************* withdraw ********************/
+.wd-content {
+  width: 72%;
+  margin: 0 auto; }
+  .wd-content_sentence {
+    width: 64%;
+    margin: 64px auto 32px auto; }
+  .wd-content_form {
+    width: 72%;
+    margin: 0 auto; }
+  .wd-content_text {
+    display: inline-block;
+    margin: 24px 0;
+    color: #fff8e2; }
+  .wd-content_form {
+    width: 72%;
+    margin: 0 auto; }
+  .wd-content_label {
+    color: #fff8e2;
+    text-align: center;
+    width: 32%;
+    display: inline-block;
+    margin-top: 48px; }
+  .wd-content_tbox {
+    width: 50%;
+    height: 22px;
+    background-color: #fff8e2; }
+  .wd-content_link {
+    display: inline-block;
+    margin: 112px 64px 64px 64px; }
+    .wd-content_link-text {
+      display: inline-block;
+      background: #fff8e2;
+      color: #4c4c4c;
+      width: 184px;
+      padding: 8px 0;
+      text-align: center; }
+  .wd-content_btn {
+    display: inline-block;
+    width: 184px;
+    padding: 8px 0;
+    margin: 32px;
+    border: none;
+    background: #af0404;
+    color: #fff8e2;
+    text-align: center; }
+
+/*************************************************/
+/****************** withdraw_comf ********************/
+.wd_comf-content {
+  width: 48%;
+  margin: 124px auto; }
+  .wd_comf-content-text {
+    color: #fff8e2;
+    text-align: center;
+    line-height: 3em;
+    margin: 96px 0 48px 0; }
+  .wd_comf-content-link {
+    display: inline-block;
+    background: #af0404;
+    margin: 48px 30% 64px 30%; }
+    .wd_comf-content-link_text {
+      display: inline-block;
+      width: 240px;
+      text-align: center;
+      line-height: 40px; }
+
 /*************** insert ****************/
 /*body {
   width: 960px;
