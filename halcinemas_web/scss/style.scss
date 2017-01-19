@@ -638,6 +638,35 @@ padding: 32px 0;}
     }
   }
 }
+/****************************************************/ 
+
+/********************* contact.php *******************/
+  .contact{
+    width: 56%;
+    margin: 0 auto;
+    color: $white;
+    &-h2{
+      font-weight: normal;
+      font-size: 20px;
+      margin: 48px 0 24px 0;
+    }
+    &-span{
+      display: inline-block;
+      margin: 24px 0;
+    }
+    &-text{
+      width: 88%;
+      font-size: 12px;
+      margin: 8px 0 24px 12px;
+      line-height: 1.6em;
+    }
+    &-label{
+      margin-right: 48px;
+    }
+  }
+/****************************************************/ 
+
+
 /*************** insert ****************/
 /*body {
   width: 960px;

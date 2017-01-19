@@ -592,6 +592,28 @@ header {
       text-align: center;
       line-height: 40px; }
 
+/****************************************************/
+/********************* contact.php *******************/
+.contact {
+  width: 56%;
+  margin: 0 auto;
+  color: #fff8e2; }
+  .contact-h2 {
+    font-weight: normal;
+    font-size: 20px;
+    margin: 48px 0 24px 0; }
+  .contact-span {
+    display: inline-block;
+    margin: 24px 0; }
+  .contact-text {
+    width: 88%;
+    font-size: 12px;
+    margin: 8px 0 24px 12px;
+    line-height: 1.6em; }
+  .contact-label {
+    margin-right: 24px; }
+
+/****************************************************/
 /*************** insert ****************/
 /*body {
   width: 960px;
