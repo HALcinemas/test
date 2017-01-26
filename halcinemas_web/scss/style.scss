@@ -20,7 +20,9 @@ a {
   .clear{
     clear: both;
   }
-
+.center{
+  text-align: center;
+}
 /************* header ************/
 header {
   width: 100%;
@@ -642,7 +644,7 @@ padding: 32px 0;}
 
 /********************* contact.php *******************/
   .contact{
-    width: 56%;
+    width: 66%;
     margin: 0 auto;
     color: $white;
     &-h2{
@@ -658,10 +660,56 @@ padding: 32px 0;}
       width: 88%;
       font-size: 12px;
       margin: 8px 0 24px 12px;
-      line-height: 1.6em;
+      line-height: 1.8em;
+      padding-bottom: 16px;
+      border-bottom:1px dashed $white; 
+      &_conf{
+        width: 72%;
+        // margin: 0 auto;
+        font-size: 14px;
+        line-height: 1.8em;
+        margin: 48px auto 8px auto;
+        text-align: center;
+      }
+    }
+    &-form{
+      padding: 32px 0;
+    }
+    &-table{
+      width: 80%;
+      margin: 0 auto;
+    }
+    &-tr{
+      margin:24px;
+    }
+    &-th{
+      font-weight: normal;
     }
     &-label{
+      display: inline-block;
+      height: 40px;
       margin-right: 48px;
+      vertical-align: top;
+    }
+    &-input{
+      width: 184px;
+      padding: 8px 16px;
+      margin: 8px;
+    }
+    &-tarea{
+      margin: 8px;
+      padding: 4px 8px;
+    }
+    &-button{
+      display: inline-block;
+      width: 35%;
+      text-align: center;
+      border: none;
+      background: $white;
+      font-size: 16px;
+      color: $gray;
+      margin: 24px 0 100px 0;
+      padding: 16px 24px;
     }
   }
 /****************************************************/ 

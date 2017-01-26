@@ -16,6 +16,9 @@ a {
 .clear {
   clear: both; }
 
+.center {
+  text-align: center; }
+
 /************* header ************/
 header {
   width: 100%;
@@ -595,7 +598,7 @@ header {
 /****************************************************/
 /********************* contact.php *******************/
 .contact {
-  width: 56%;
+  width: 66%;
   margin: 0 auto;
   color: #fff8e2; }
   .contact-h2 {
@@ -609,9 +612,46 @@ header {
     width: 88%;
     font-size: 12px;
     margin: 8px 0 24px 12px;
-    line-height: 1.6em; }
+    line-height: 1.8em;
+    padding-bottom: 16px;
+    border-bottom: 1px dashed #fff8e2; }
+    .contact-text_conf {
+      width: 72%;
+      font-size: 14px;
+      line-height: 1.8em;
+      margin: 48px auto 8px auto;
+      text-align: center; }
+  .contact-form {
+    padding: 32px 0; }
+  .contact-table {
+    width: 80%;
+    margin: 0 auto; }
+  .contact-tr {
+    margin: 24px; }
+  .contact-th {
+    font-weight: normal; }
   .contact-label {
-    margin-right: 24px; }
+    display: inline-block;
+    height: 40px;
+    margin-right: 48px;
+    vertical-align: top; }
+  .contact-input {
+    width: 184px;
+    padding: 8px 16px;
+    margin: 8px; }
+  .contact-tarea {
+    margin: 8px;
+    padding: 4px 8px; }
+  .contact-button {
+    display: inline-block;
+    width: 35%;
+    text-align: center;
+    border: none;
+    background: #fff8e2;
+    font-size: 16px;
+    color: #4c4c4c;
+    margin: 24px 0 100px 0;
+    padding: 16px 24px; }
 
 /****************************************************/
 /*************** insert ****************/
