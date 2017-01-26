@@ -609,14 +609,14 @@ header {
     display: inline-block;
     margin: 24px 0; }
   .contact-text {
-    width: 88%;
+    width: 100%;
     font-size: 12px;
-    margin: 8px 0 24px 12px;
+    margin: 8px 0 24px 0;
     line-height: 1.8em;
     padding-bottom: 16px;
     border-bottom: 1px dashed #fff8e2; }
     .contact-text_conf {
-      width: 72%;
+      width: 84%;
       font-size: 14px;
       line-height: 1.8em;
       margin: 48px auto 8px auto;
@@ -652,8 +652,32 @@ header {
     color: #4c4c4c;
     margin: 24px 0 100px 0;
     padding: 16px 24px; }
+    .contact-button:hover {
+      background: #af0404;
+      color: #fff8e2;
+      cursor: pointer; }
 
 /****************************************************/
+/****************** contact_conf *****************/
+.con-comf {
+  width: 48%;
+  margin: 124px auto; }
+  .con-comf_text {
+    color: #fff8e2;
+    text-align: center;
+    line-height: 3em;
+    margin: 96px 0 48px 0; }
+  .con-comf-link {
+    display: inline-block;
+    background: #af0404;
+    margin: 48px 30% 64px 30%; }
+    .con-comf-link_text {
+      display: inline-block;
+      width: 240px;
+      text-align: center;
+      line-height: 40px; }
+
+/*************************************************/
 /*************** insert ****************/
 /*body {
   width: 960px;
