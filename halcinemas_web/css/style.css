@@ -710,3 +710,43 @@ header {
     font-size: 15px;
     font-weight: 700;
     text-align: center; }
+
+/*******************************************/
+/******************* mypage ****************/
+.mypage {
+  width: 64%;
+  margin: 0 auto;
+  color: #fff8e2; }
+  .mypage-form {
+    padding: 32px 0; }
+  .mypage-table {
+    margin: 0 auto; }
+  .mypage-tr {
+    margin: 24px; }
+  .mypage-th {
+    font-weight: normal; }
+  .mypage-label {
+    display: inline-block;
+    height: 40px;
+    margin-right: 48px;
+    vertical-align: top; }
+  .mypage-input {
+    width: 184px;
+    padding: 8px 16px;
+    margin: 8px; }
+  .mypage-button {
+    display: inline-block;
+    width: 35%;
+    text-align: center;
+    border: none;
+    background: #fff8e2;
+    font-size: 16px;
+    color: #4c4c4c;
+    margin: 24px 0 100px 0;
+    padding: 16px 24px; }
+    .mypage-button:hover {
+      background: #af0404;
+      color: #fff8e2;
+      cursor: pointer; }
+
+/*******************************************/

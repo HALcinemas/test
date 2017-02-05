@@ -741,7 +741,6 @@ padding: 32px 0;}
     }
   }
 /*************************************************/ 
-
 /*************** insert ****************/
 /*body {
   width: 960px;
@@ -759,15 +758,12 @@ padding: 32px 0;}
 
   table {
   	border-collapse: collapse;
-
-
     td {
     	border: solid 5px;
       border-color: $white;
     	padding: 1.5em;
       font-size: 16px;
     }
-
     }
 
     form{
@@ -786,5 +782,54 @@ padding: 32px 0;}
       }
   }
 }
+/*******************************************/
+
+/******************* mypage ****************/
+  .mypage{
+    width: 64%;
+    margin: 0 auto;
+    color: $white;
+    &-form{
+      padding: 32px 0;
+    }
+    &-table{
+      margin: 0 auto;
+    }
+    &-tr{
+      margin:24px;
+    }
+    &-th{
+      font-weight: normal;
+    }
+    &-label{
+      display: inline-block;
+      height: 40px;
+      margin-right: 48px;
+      vertical-align: top;
+    }
+    &-input{
+      width: 184px;
+      padding: 8px 16px;
+      margin: 8px;
+    }
+     &-button{
+      display: inline-block;
+      width: 35%;
+      text-align: center;
+      border: none;
+      background: $white;
+      font-size: 16px;
+      color: $gray;
+      margin: 24px 0 100px 0;
+      padding: 16px 24px;
+      &:hover{
+        background: $red;
+        color: $white;
+        cursor: pointer;
+      }
+    }
+  }
+
+/*******************************************/ 
 
 
