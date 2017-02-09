@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="../../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../../css/style.min.css">
+  <title>利用規約</title>
 </head>
 <body>
   <header>
@@ -12,11 +14,11 @@
   			require('template/header.php')
   		?>
   	</header>
-<div class="container">
-  <h2>利用規約</h2>
-  <p>1.本規約は、ユーザーとHAL CINEMAS(以下、当社といいます)との間の本サービスの利用に関わる一切の関係に適用されるものとします。<br>
-  2.登録希望者が当社の定める方法によって利用登録を申請し、当社がこれを承認することによって、利用登録が完了するものとします。<br>
-  3.当社は、利用登録の申請者に以下の事由があると判断した場合、利用登録の申請を承認しないことがあり、その理由については一切の開示義務を負わないものとします。<br>
+<div class="policy">
+  <h2 class="policy-h2">利用規約</h2>
+  <span class="policy-text">1.本規約は、ユーザーとHAL CINEMAS(以下、当社といいます)との間の本サービスの利用に関わる一切の関係に適用されるものとします。</span>
+  <span class="policy-text">2.登録希望者が当社の定める方法によって利用登録を申請し、当社がこれを承認することによって、利用登録が完了するものとします。</span>
+  <span class="policy-text">3.当社は、利用登録の申請者に以下の事由があると判断した場合、利用登録の申請を承認しないことがあり、その理由については一切の開示義務を負わないものとします。</span>
   (1)　利用登録の申請に際して虚偽の事項を届け出た場合<br>
   (2)　本規約に違反したことがある者からの申請である場合<br>
   (3)　その他、当社が利用登録を相当でないと判断した場合<br>

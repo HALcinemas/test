@@ -13,7 +13,7 @@
 	<div class="footer__menu">
 		<ul class="footer__menu--ul">
 			<li class="footer__menu--li"><a href="#" class="footer__menu--li-a">個人情報の取り扱いについて</a></li>
-			<li class="footer__menu--li"><a href="#" class="footer__menu--li-a">利用規約</a></li>
+			<li class="footer__menu--li"><a href="/test2/halcinemas_web/pages/general/kiyaku.php" class="footer__menu--li-a">利用規約</a></li>
 			<li class="footer__menu--li"><a href="#" class="footer__menu--li-a">会社概要</a></li>
 			<li class="footer__menu--li"><a href="#" class="footer__menu--li-a">お問い合わせ</a></li>
 		</ul>
