@@ -15,8 +15,8 @@
 	</header>
 	<div class="theater-list">
 		<div class="bread">
-			<a href="#" class="cinema-list_bread">HOME</a>&gt;
-			<a href="#" class="cinema-list_bread">上映中作品一覧</a>
+			<a href="/test2/halcinemas_web/pages/general/index.php" class="cinema-list_bread">HOME</a>&gt;
+			<a href="/test2/halcinemas_web/pages/general/cinema_list.php" class="cinema-list_bread">上映中作品一覧</a>
 		</div>
 		<h2 class="theater-list_title">劇場案内</h2>
 		<ul class="theater-list__ul">

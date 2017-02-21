@@ -33,31 +33,31 @@
                 <div class="theater-screen__box">
                 <ul class="theater-screen__ul">
                     <li class="theater-screen__li">
-                        <a href="#" class="theater-screen__link">
+                        <a href="/test2/halcinemas_web/pages/general/theater_individual_page.php" class="theater-screen__link">
                             <span class="theater-screen__time">*:**-*:**</span>
                             <span class="theater-screen__states">○空席あり</span>
                         </a>
                     </li>
                     <li class="theater-screen__li">
-                        <a href="#" class="theater-screen__link">
+                        <a href="/test2/halcinemas_web/pages/general/theater_individual_page.php" class="theater-screen__link">
                             <span class="theater-screen__time">*:**-*:**</span>
                             <span class="theater-screen__states">○空席あり</span>
                         </a>
                     </li>
                     <li class="theater-screen__li">
-                        <a href="#" class="theater-screen__link">
+                        <a href="/test2/halcinemas_web/pages/general/theater_individual_page.php" class="theater-screen__link">
                             <span class="theater-screen__time">*:**-*:**</span>
                             <span class="theater-screen__states">○空席あり</span>
                         </a>
                     </li>
                     <li class="theater-screen__li">
-                        <a href="#" class="theater-screen__link">
+                        <a href="/test2/halcinemas_web/pages/general/theater_individual_page.php" class="theater-screen__link">
                             <span class="theater-screen__time">*:**-*:**</span>
                             <span class="theater-screen__states">○空席あり</span>
                         </a>
                     </li>
                     <li class="theater-screen__li">
-                        <a href="#" class="theater-screen__link">
+                        <a href="/test2/halcinemas_web/pages/general/theater_individual_page.php" class="theater-screen__link">
                             <span class="theater-screen__time">*:**-*:**</span>
                             <span class="theater-screen__states">○空席あり</span>
                         </a>

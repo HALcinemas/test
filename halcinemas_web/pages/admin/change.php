@@ -16,7 +16,7 @@
         <!-- 登録情報変更 -->
         <h2 class="mypage-menu change-menu">登録情報変更</h2>
                 
-            <form action="#" method="POST" class="change-form">    
+            <form action="/test2/halcinemas_web/pages/admin/change_comf.php" method="POST" class="change-form">    
                 <table class="mypage-table">
                     <tr class="mypage-table_tr">
                         <th class="mypage-table_th"><label class="mypage-label">氏名</label></th>
@@ -57,7 +57,7 @@
                 </table>
                 <p class="contact-text_conf">登録情報の変更を行う場合は、変更する を押してください。</p>
                 <div class="center">
-                    <button type="submit" class="contact-button">キャンセル</button>
+                    <a href="/test2/halcinemas_web/pages/admin/mypage.php" class="contact-button">キャンセル</a>
                     <button type="submit" class="contact-button_change">変更する</button>
                 </div>
             </form>

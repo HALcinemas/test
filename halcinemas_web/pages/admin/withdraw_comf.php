@@ -18,7 +18,7 @@
                 退会が完了しました。<br>
                 ご利用いただきありがとうございました。
             </p>
-            <a href="index.php" class="wd_comf-content-link"><span class="wd_comf-content-link_text">TOPへもどる</span></a>
+            <a href="/test2/halcinemas_web/pages/general/index.php" class="wd_comf-content-link"><span class="wd_comf-content-link_text">TOPへもどる</span></a>
         </div>
         <?php
             require('../general/template/footer.php');

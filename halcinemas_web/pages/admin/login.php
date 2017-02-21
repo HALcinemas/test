@@ -23,9 +23,9 @@
           <p class="mail"><input type="email" name="mail" /></p>
           <p>パスワード</p>
           <p class="pass"><input type="password" name="pass" /></p>
-          <p class="submit"><a href="#">ログイン</a></p>
+          <p class="submit"><a href="mypage.php">ログイン</a></p>
           <p class="submit2"><a href="kanri.html">登録する</a></p>
-          <a href="#" class="a">パスワードを忘れた方はこちらに</a>
+          <a href="#" class="a">パスワードを忘れた方はこちら</a>
       </form>
     </div>
   </main>

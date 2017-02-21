@@ -15,8 +15,8 @@
 	</header>
     <div class="cinema-list">
         <div class="bread">
-            <a href="#" class="cinema-list_bread">HOME</a>&gt;
-            <a href="#" class="cinema-list_bread">公開予定作品一覧</a>
+            <a href="/test2/halcinemas_web/pages/general/index.php" class="cinema-list_bread">HOME</a>&gt;
+            <a href="/test2/halcinemas_web/pages/general/cinema-soon_list.php" class="cinema-list_bread">公開予定作品一覧</a>
         </div>
         <h2 class="cinema-list_h2">公開予定作品</h2>
         <span class="cinema-list_pull">作品リスト：</span>
