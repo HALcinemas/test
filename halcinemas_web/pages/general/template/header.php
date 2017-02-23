@@ -2,8 +2,8 @@
 <div class="header">
 	<a href="/test2/halcinemas_web/pages/general/index.php"><img src="../../img/cinemaLogo.png" alt="hal cinema logo" class="header-logo_img"></a>
 	<div class="header__primary">
-		<a href="#" class="header__primary-menu">ログイン</a>
-		<a href="#" class="header__primary-menu">新規登録</a>
+		<a href="/test2/halcinemas_web/pages/admin/login.php" class="header__primary-menu">ログイン</a>
+		<a href="/test2/halcinemas_web/pages/general/insert.php" class="header__primary-menu">新規登録</a>
 	</div>
 	<div class="header__nav">
 		<ul class="header__nav--ul">

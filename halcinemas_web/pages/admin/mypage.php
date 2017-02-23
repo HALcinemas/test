@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="../../css/reset.css">
 	<link rel="stylesheet" type="text/css" href="../../css/style.min.css">
-	<title>CONTACT</title>
+	<title>マイページ</title>
 </head>
 <body>
 	<header>
